@@ -1,0 +1,4 @@
+background: #323232
+navBar: #212121
+Aqua: #14ffec
+darkAqua: #0d7377

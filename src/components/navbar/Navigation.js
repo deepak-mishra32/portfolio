@@ -9,7 +9,12 @@ function Navigation() {
       bg="dark"
       variant="dark"
       expand="lg"
-      style={{ padding: "16px", minHeight: "10vh" }}
+      sticky="top"
+      style={{
+        padding: "16px",
+        minHeight: "10vh",
+        boxShadow: "0px 5px 17px 0px rgba(0,0,0,0.5)",
+      }}
     >
       <Container>
         <Link to="/" className="link">
