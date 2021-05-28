@@ -22,26 +22,26 @@ function App() {
             <FixedMenu />
           </Col>
           <Col lg={9} className="pt-4">
-            <div id="home" style={{ height: "100vh" }}>
+            <div id="home" className="home-height">
               <Home />
             </div>
-            <div id="about">
+            <div id="about" className="home-height">
               <About />
             </div>
-            <div id="contact">
-              <Contact />
-            </div>
-            <div id="qualification">
+            <div id="qualification" className="home-height">
               <Qualification />
             </div>
-            <div id="skills">
+            <div id="skills" className="home-height">
               <Skills />
             </div>
-            <div id="projects">
+            <div id="projects" className="home-height">
               <Projects />
             </div>
-            <div id="achievements">
+            <div id="achievements" className="home-height">
               <Acheivements />
+            </div>
+            <div id="contact" className="home-height">
+              <Contact />
             </div>
           </Col>
         </Row>

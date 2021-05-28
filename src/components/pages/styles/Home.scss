@@ -11,7 +11,32 @@
   background-image: url("../../images/Deepak.JPG");
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.5);
+}
+.col2-img {
+  margin-left: -24px;
+  margin-top: 60px;
+  filter: drop-shadow(30px 10px 4px rgba(0, 0, 0, 0.5));
+}
+.col1-img {
+  margin-top: 60px;
+  margin-left: 41px;
+  transform: scaleX(-1);
+  filter: drop-shadow(30px 10px 4px rgba(0, 0, 0, 0.5));
 }
 .inner-img-div {
   backdrop-filter: blur(5px);
+}
+#hide-col {
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+.quote {
+  @media (max-width: 1000px) {
+    margin-top: -10px;
+  }
+  @media (min-width: 1000px) {
+    // margin-top: -8px;
+  }
 }
