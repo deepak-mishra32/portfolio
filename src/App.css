@@ -1,8 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Basic:wght@700&display=swap");
 .App {
   color: #14ffec;
   background-color: #323232;
+  font-family: "Gentium Basic", serif;
 }
 * {
   margin: 0%;
   padding: 0%;
+}
+@media screen and (max-width: 1000px) {
+  #side-nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #nav {
+    display: none;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #323232;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0d7377;
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #14ffec;
+}
+::selection {
+  color: #323232;
+  background: #14ffec;
 }

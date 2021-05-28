@@ -4,17 +4,16 @@ import { SocialIcon } from "react-social-icons";
 import Deepak from "./images/navImg.jpg";
 import "./pages/styles/FixedMenu.css";
 import { Card } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { IoIosHome } from "react-icons/io";
+import { ImUserTie } from "react-icons/im";
+import { FaUserGraduate, FaLaptopCode } from "react-icons/fa";
+import { GiSkills, GiAchievement } from "react-icons/gi";
+import { MdContacts } from "react-icons/md";
 function FixedMenu() {
-  const listItem = {
-    backgroundColor: "#0d7377",
-    padding: "10px",
-    borderBottom: "1px solid #14ffec",
-  };
   const socialIcon = {
     height: "36px",
     width: "36px",
-    margin: "8px 0",
+    marginTop: "16px",
     borderRadius: "50%",
     boxShadow: "0px 5px 17px 0px rgba(0, 0, 0, 0.5)",
     "&:hover": {
@@ -25,18 +24,7 @@ function FixedMenu() {
 
   return (
     <Container className="justify-content-center">
-      <Card
-        style={{
-          backgroundColor: "#0d7377",
-          border: "none",
-          height: "100vh",
-          justifyContent: "space-evenly",
-          position: "fixed",
-          padding: "16px",
-          textAlign: "center",
-          width: "22% ",
-        }}
-      >
+      <Card className="card">
         <img
           src={Deepak}
           alt="Deepak Mishra"
@@ -46,31 +34,42 @@ function FixedMenu() {
         <Card.Title className="mt-2">Deepak Mishra</Card.Title>
         <Card.Subtitle>Web Developer</Card.Subtitle>
         <Card.Body>
-          <ListGroup variant="flush">
-            <Link to="/home" className="link">
-              <ListGroup.Item style={listItem}> Home </ListGroup.Item>
-            </Link>
-            <Link to="/about" className="link">
-              <ListGroup.Item style={listItem}>About</ListGroup.Item>
-            </Link>
-            <Link to="/contact" className="link">
-              <ListGroup.Item style={listItem}>Contact</ListGroup.Item>
-            </Link>
-            <Link to="/qualification" className="link">
-              <ListGroup.Item style={listItem}>Quallification</ListGroup.Item>
-            </Link>
-            <Link to="/skills" className="link">
-              <ListGroup.Item style={listItem}>Skills</ListGroup.Item>
-            </Link>
-            <Link to="/projects" className="link">
-              <ListGroup.Item style={listItem}>Projects</ListGroup.Item>
-            </Link>
-            <Link to="/achievements" className="link">
-              <ListGroup.Item style={listItem}>Acheivements</ListGroup.Item>
-            </Link>
+          <ListGroup className="pt-2">
+            <ListGroup.Item action href="/#home" className="list-items">
+              <IoIosHome style={{ marginTop: "-4px" }} /> Home
+            </ListGroup.Item>
+            <ListGroup.Item action href="/#about" className="list-items">
+              <ImUserTie style={{ marginTop: "-4px" }} /> About
+            </ListGroup.Item>
+            <ListGroup.Item
+              action
+              href="/#qualification"
+              className="list-items"
+            >
+              <FaUserGraduate style={{ marginTop: "-4px" }} /> Quallification
+            </ListGroup.Item>
+            <ListGroup.Item action href="/#skills" className="list-items">
+              <GiSkills style={{ marginTop: "-4px" }} /> Skills
+            </ListGroup.Item>
+            <ListGroup.Item action href="/#projects" className="list-items">
+              <FaLaptopCode style={{ marginTop: "-4px" }} /> Projects
+            </ListGroup.Item>
+            <ListGroup.Item action href="/#achievements" className="list-items">
+              <GiAchievement style={{ marginTop: "-4px" }} /> Acheivements
+            </ListGroup.Item>
+            <ListGroup.Item action href="/#contact" className="list-items">
+              <MdContacts style={{ marginTop: "-4px" }} /> Contact
+            </ListGroup.Item>
           </ListGroup>
         </Card.Body>
-        <Card.Header>Connect Socially</Card.Header>
+        <Card.Header
+          style={{
+            boxShadow: "0px 0.5px 2px 0px rgba(0, 0, 0, 0.5)",
+            marginTop: "-10px",
+          }}
+        >
+          Connect Socially
+        </Card.Header>
         <Row>
           <Col>
             <SocialIcon

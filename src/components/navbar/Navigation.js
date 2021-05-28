@@ -2,15 +2,20 @@ import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Nav.css";
+import { IoIosHome } from "react-icons/io";
+import { ImUserTie } from "react-icons/im";
+import { FaUserGraduate, FaLaptopCode } from "react-icons/fa";
+import { GiSkills, GiAchievement } from "react-icons/gi";
+import { MdContacts } from "react-icons/md";
 
 function Navigation() {
   return (
     <Navbar
-      bg="dark"
       variant="dark"
       expand="lg"
       sticky="top"
       style={{
+        backgroundColor: "#0d7377",
         padding: "16px",
         minHeight: "10vh",
         boxShadow: "0px 5px 17px 0px rgba(0,0,0,0.5)",
@@ -20,23 +25,44 @@ function Navigation() {
         <Link to="/" className="link">
           <Navbar.Brand>Deepak Mishra</Navbar.Brand>
         </Link>
-        <Navbar.Toggle />
+        <Navbar.Toggle style={{ border: "none" }} />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
+            <hr />
             <Navbar.Text>
-              <Link to="/home" className="link">
-                Home
-              </Link>
+              <a href="/#home" className="link">
+                <IoIosHome style={{ marginTop: "-4px" }} /> Home
+              </a>
             </Navbar.Text>
             <Navbar.Text>
-              <Link to="/about" className="link">
-                About
-              </Link>
+              <a href="/#about" className="link">
+                <ImUserTie style={{ marginTop: "-4px" }} /> About
+              </a>
             </Navbar.Text>
             <Navbar.Text>
-              <Link to="/contact" className="link">
-                Contact
-              </Link>
+              <a href="/#qualification" className="link">
+                <FaUserGraduate style={{ marginTop: "-4px" }} /> Quallification
+              </a>
+            </Navbar.Text>
+            <Navbar.Text>
+              <a href="/#skills" className="link">
+                <GiSkills style={{ marginTop: "-4px" }} /> Skills
+              </a>
+            </Navbar.Text>
+            <Navbar.Text>
+              <a href="/#projects" className="link">
+                <FaLaptopCode style={{ marginTop: "-4px" }} /> ProjectsProjects
+              </a>
+            </Navbar.Text>
+            <Navbar.Text>
+              <a href="/#achievements" className="link">
+                <GiAchievement style={{ marginTop: "-4px" }} /> Acheivements
+              </a>
+            </Navbar.Text>
+            <Navbar.Text>
+              <a href="/#contact" className="link">
+                <MdContacts style={{ marginTop: "-4px" }} /> Contact
+              </a>
             </Navbar.Text>
           </Nav>
         </Navbar.Collapse>

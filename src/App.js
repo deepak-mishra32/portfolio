@@ -1,6 +1,7 @@
 import "./App.css";
 import { Col, Container, Row } from "react-bootstrap";
 import Home from "./components/pages/Home";
+import Navigation from "./components/navbar/Navigation";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Qualification from "./components/pages/Qualification";
@@ -12,9 +13,12 @@ import FixedMenu from "./components/FixedMenu";
 function App() {
   return (
     <div className="App">
+      <div id="nav">
+        <Navigation />
+      </div>
       <Container fluid>
         <Row>
-          <Col lg={3}>
+          <Col lg={3} id="side-nav">
             <FixedMenu />
           </Col>
           <Col lg={9} className="pt-4">

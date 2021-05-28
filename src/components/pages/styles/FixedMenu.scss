@@ -13,3 +13,31 @@
   margin: auto;
   box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.5);
 }
+.card {
+  background-color: #0d7377;
+  border: none;
+  height: 100vh;
+  justify-content: "space-evenly";
+  position: fixed;
+  padding: 16px;
+  text-align: center;
+  width: 20%;
+  text-shadow: 2px 2px 5px #000000;
+}
+.list-items {
+  background-color: #0d7377;
+  padding: 10px;
+  border-bottom: 1px solid #14ffec;
+  color: #14ffec;
+  &:hover {
+    background-color: #0d7377;
+    color: white;
+  }
+  &:visited {
+    background-color: #0d7377;
+    border: #14ffec;
+  }
+  &:active {
+    color: black;
+  }
+}
