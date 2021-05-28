@@ -16,13 +16,13 @@ function App() {
       <div id="nav">
         <Navigation />
       </div>
-      <Container fluid>
+      <Container fluid id="home">
         <Row>
           <Col lg={3} id="side-nav">
             <FixedMenu />
           </Col>
           <Col lg={9} className="pt-4">
-            <div id="home">
+            <div id="home" style={{ height: "100vh" }}>
               <Home />
             </div>
             <div id="about">

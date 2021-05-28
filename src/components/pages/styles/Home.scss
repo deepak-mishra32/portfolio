@@ -1,0 +1,17 @@
+.home-heading {
+  @media (min-width: 1000px) {
+    text-align: center;
+  }
+  @media (max-width: 1000px) {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.img-div {
+  background-image: url("../../images/Deepak.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.inner-img-div {
+  backdrop-filter: blur(5px);
+}

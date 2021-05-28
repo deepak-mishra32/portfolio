@@ -1,1 +1,24 @@
-/* No CSS *//*# sourceMappingURL=Home.css.map */
+@media (min-width: 1000px) {
+  .home-heading {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .home-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.img-div {
+  background-image: url("../../images/Deepak.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inner-img-div {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+/*# sourceMappingURL=Home.css.map */
