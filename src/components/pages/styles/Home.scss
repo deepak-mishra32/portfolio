@@ -6,6 +6,12 @@
     font-size: 20px;
     text-align: center;
   }
+  #joey-a {
+    color: #212121;
+    &:hover {
+      color: #0d7377;
+    }
+  }
 }
 .img-div {
   background-image: url("../../images/Deepak.JPG");
@@ -32,11 +38,4 @@
     display: none;
   }
 }
-.quote {
-  @media (max-width: 1000px) {
-    margin-top: -10px;
-  }
-  @media (min-width: 1000px) {
-    // margin-top: -8px;
-  }
-}
+

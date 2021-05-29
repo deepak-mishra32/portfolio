@@ -32,9 +32,9 @@ function FixedMenu() {
           id="imgStyle"
         />
         <Card.Title className="mt-2">Deepak Mishra</Card.Title>
-        <Card.Subtitle>Web Developer</Card.Subtitle>
+        {/* <Card.Subtitle>Web Developer</Card.Subtitle> */}
         <Card.Body>
-          <ListGroup className="pt-2">
+          <ListGroup>
             <ListGroup.Item action href="/#home" className="list-items">
               <IoIosHome style={{ marginTop: "-4px" }} /> Home
             </ListGroup.Item>

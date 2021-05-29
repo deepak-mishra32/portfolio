@@ -3,6 +3,7 @@
   color: #14ffec;
   background-color: #212121;
   font-family: "Gentium Basic", serif;
+  text-transform: capitalize;
 }
 * {
   margin: 0%;
@@ -39,8 +40,23 @@
   color: #323232;
   background: #14ffec;
 }
+.home-height {
+  padding-top: 4px;
+}
 @media screen and (min-width: 1000px) {
   .home-height {
     height: 100vh;
+  }
+}
+a {
+  text-decoration: none;
+  color: #14ffec;
+}
+a:hover {
+  color: #ffffff;
+}
+@media screen and (min-width: 1000px) {
+  .App {
+    font-size: 18px;
   }
 }

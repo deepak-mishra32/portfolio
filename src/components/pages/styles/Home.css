@@ -11,6 +11,14 @@
   }
 }
 
+.home-heading #joey-a {
+  color: #212121;
+}
+
+.home-heading #joey-a:hover {
+  color: #0d7377;
+}
+
 .img-div {
   background-image: url("../../images/Deepak.JPG");
   background-size: cover;
@@ -43,12 +51,6 @@
 @media (max-width: 1000px) {
   #hide-col {
     display: none;
-  }
-}
-
-@media (max-width: 1000px) {
-  .quote {
-    margin-top: -10px;
   }
 }
 /*# sourceMappingURL=Home.css.map */

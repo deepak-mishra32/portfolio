@@ -1,0 +1,20 @@
+.Quote-info {
+  margin-top: 16px;
+  @media (max-width: 796px) {
+    font-size: 18px;
+    text-align: justify;
+  }
+}
+.quote {
+  @media (max-width: 796px) {
+    font-size: 18px;
+    text-align: justify;
+    padding: 4px;
+  }
+}
+.blob {
+  filter: drop-shadow(5px 5px 6px #14ffec);
+  @media (max-width: 796px) {
+    display: none;
+  }
+}
