@@ -1,8 +1,7 @@
 import "./styles/Home.css";
 import React from "react";
 import { Alert, Col, Container, Row } from "react-bootstrap";
-import Deepak from "../images/Deepak.JPG";
-import homeBg1 from "../images/home-bg1.png";
+import Deepak from "../images/Deepak.png";
 import homeBg2 from "../images/bg2.png";
 function Home() {
   return (

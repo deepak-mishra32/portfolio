@@ -1,0 +1,31 @@
+.qualification-col {
+  -webkit-filter: drop-shadow(5px 12px 8px #000000);
+          filter: drop-shadow(5px 12px 8px #000000);
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .qualification-col {
+    margin-left: 0px;
+    margin-bottom: 8px;
+  }
+}
+
+.qualification-col img {
+  max-height: 150px;
+  margin-left: 10px;
+}
+
+@media (max-width: 900px) {
+  .qualification-col img {
+    margin-right: 16px;
+  }
+}
+
+.qualification-heading {
+  text-align: center;
+  margin: 16px;
+}
+/*# sourceMappingURL=Qualification.css.map */

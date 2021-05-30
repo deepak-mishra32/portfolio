@@ -41,7 +41,7 @@
   background: #14ffec;
 }
 .home-height {
-  padding-top: 4px;
+  padding-top: 16px;
 }
 @media screen and (min-width: 1000px) {
   .home-height {

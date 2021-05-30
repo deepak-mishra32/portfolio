@@ -1,9 +1,11 @@
 .Quote-info {
-  margin-top: 16px;
+  margin-top: 24px;
+  text-align: justify;
   @media (max-width: 796px) {
     font-size: 18px;
     text-align: justify;
   }
+  text-align-last: center;
 }
 .quote {
   @media (max-width: 796px) {
@@ -11,10 +13,40 @@
     text-align: justify;
     padding: 4px;
   }
+  text-align-last: center;
 }
 .blob {
-  filter: drop-shadow(5px 5px 6px #14ffec);
+  filter: drop-shadow(5px 6px 0px #14ffec);
   @media (max-width: 796px) {
+    display: none;
+  }
+}
+.interest {
+  margin-top: 36px;
+  text-shadow: "5px 12px 8px #000000";
+  text-align: center;
+  color: white;
+}
+.hr-line {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 8%;
+  border-top: 4px solid#14ffec;
+  @media (max-width: 900px) {
+    font-size: 18px;
+    width: 26%;
+  }
+}
+#intrest-img {
+  max-height: 100px;
+  filter: drop-shadow(5px 12px 8px #000000);
+}
+#intrest-heading {
+  margin-top: 16px;
+}
+#about-col {
+  @media (max-width: 900px) {
     display: none;
   }
 }

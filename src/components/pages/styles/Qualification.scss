@@ -1,0 +1,22 @@
+.qualification-col {
+  //   background-color: rgba(245, 245, 245, 0.514);
+  filter: drop-shadow(5px 12px 8px #000000);
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  @media (max-width: 900px) {
+    margin-left: 0px;
+    margin-bottom: 8px;
+  }
+  img {
+    max-height: 150px;
+    margin-left: 10px;
+    @media (max-width: 900px) {
+      margin-right: 16px;
+    }
+  }
+}
+.qualification-heading {
+  text-align: center;
+  margin: 16px;
+}

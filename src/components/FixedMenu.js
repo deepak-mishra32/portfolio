@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row, ListGroup } from "react-bootstrap";
 import { SocialIcon } from "react-social-icons";
-import Deepak from "./images/navImg.jpg";
+import Deepak from "./images/navImg.png";
 import "./pages/styles/FixedMenu.css";
 import { Card } from "react-bootstrap";
 import { IoIosHome } from "react-icons/io";
