@@ -31,7 +31,7 @@ function App() {
             <div id="qualification" className="home-height">
               <Qualification />
             </div>
-            <div id="skills" className="home-height">
+            <div id="skills">
               <Skills />
             </div>
             <div id="projects" className="home-height">

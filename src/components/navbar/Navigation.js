@@ -25,7 +25,7 @@ function Navigation() {
         <Link to="/" className="link">
           <Navbar.Brand>Deepak Mishra</Navbar.Brand>
         </Link>
-        <Navbar.Toggle style={{ border: "none" }} />
+        <Navbar.Toggle className="toggle" />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <hr />

@@ -2,3 +2,12 @@
   text-decoration: none;
   margin-left: 10px;
 }
+.toggle {
+  &:hover {
+    border: 1px solid #14ffec;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
