@@ -7,7 +7,7 @@ import Contact from "./components/pages/Contact";
 import Qualification from "./components/pages/Qualification";
 import Skills from "./components/pages/Skills";
 import Projects from "./components/pages/Projects";
-import Acheivements from "./components/pages/Acheivements";
+import WorkExp from "./components/pages/WorkExp";
 import FixedMenu from "./components/FixedMenu";
 
 function App() {
@@ -31,14 +31,14 @@ function App() {
             <div id="qualification" className="home-height">
               <Qualification />
             </div>
-            <div id="skills">
+            <div id="skills" className="home-height">
               <Skills />
             </div>
             <div id="projects" className="home-height">
               <Projects />
             </div>
-            <div id="achievements" className="home-height">
-              <Acheivements />
+            <div id="workexp" className="home-height">
+              <WorkExp />
             </div>
             <div id="contact" className="home-height">
               <Contact />

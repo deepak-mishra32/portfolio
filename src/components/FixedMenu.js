@@ -31,7 +31,7 @@ function FixedMenu() {
           className="img-fluid"
           id="imgStyle"
         />
-        <Card.Title className="mt-2">Deepak Mishra</Card.Title>
+        {/* <Card.Title className="mt-2">Deepak Mishra</Card.Title> */}
         {/* <Card.Subtitle>Web Developer</Card.Subtitle> */}
         <Card.Body>
           <ListGroup>
@@ -54,8 +54,8 @@ function FixedMenu() {
             <ListGroup.Item action href="/#projects" className="list-items">
               <FaLaptopCode style={{ marginTop: "-4px" }} /> Projects
             </ListGroup.Item>
-            <ListGroup.Item action href="/#achievements" className="list-items">
-              <GiAchievement style={{ marginTop: "-4px" }} /> Acheivements
+            <ListGroup.Item action href="/#workexp" className="list-items">
+              <GiAchievement style={{ marginTop: "-4px" }} /> Experience
             </ListGroup.Item>
             <ListGroup.Item action href="/#contact" className="list-items">
               <MdContacts style={{ marginTop: "-4px" }} /> Contact

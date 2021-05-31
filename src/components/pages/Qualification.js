@@ -4,9 +4,9 @@ import { Col, Container, Row, Button } from "react-bootstrap";
 import School from "../images/SCHL-logo.png";
 import College from "../images/HSC-logo.png";
 import Degree from "../images/Degree-logo.png";
-import Python from "../Certificates/Coursera.png";
-import Django from "../Certificates/Django2.png";
-import WordPress from "../Certificates/WordPress.png";
+import Python from "../images/Certificates/Coursera.png";
+import Django from "../images/Certificates/Django2.png";
+import WordPress from "../images/Certificates/WordPress.png";
 import { SiPython } from "react-icons/si";
 import { DiDjango } from "react-icons/di";
 import { DiWordpress } from "react-icons/di";
@@ -137,6 +137,7 @@ function Qualification() {
           </Alert>
         </Col>
       </Row>
+      <hr />
     </Container>
   );
 }

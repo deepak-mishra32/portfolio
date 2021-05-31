@@ -1,0 +1,30 @@
+#Project-img {
+  height: 150px;
+  margin: auto;
+  display: block;
+  filter: drop-shadow(3px 10px 4px rgba(0, 0, 0, 0.5));
+  margin-bottom: 40px;
+  @media (max-width: 900px) {
+    height: 100px;
+  }
+}
+h5 {
+  text-align: center;
+}
+.Proj-last-col {
+  @media (max-width: 900px) {
+    margin-top: 16px;
+  }
+}
+.project-btn {
+  &:hover {
+    background-color: transparent;
+    color: #212529;
+  }
+  &:focus {
+    outline: none;
+    background-color: #141619;
+    color: white;
+    box-shadow: none;
+  }
+}

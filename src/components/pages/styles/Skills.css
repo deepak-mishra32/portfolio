@@ -1,0 +1,17 @@
+.progress-bar {
+  background-color: #14ffec;
+  color: #14ffec;
+  -webkit-filter: drop-shadow(2px 2px 5px #0d7377);
+          filter: drop-shadow(2px 2px 5px #0d7377);
+}
+
+.skill-icon {
+  font-size: 36px;
+}
+
+@media (max-width: 900px) {
+  .skill-icon {
+    font-size: 26px;
+  }
+}
+/*# sourceMappingURL=Skills.css.map */

@@ -1,0 +1,38 @@
+#Project-img {
+  height: 150px;
+  margin: auto;
+  display: block;
+  -webkit-filter: drop-shadow(3px 10px 4px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(3px 10px 4px rgba(0, 0, 0, 0.5));
+  margin-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+  #Project-img {
+    height: 100px;
+  }
+}
+
+h5 {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .Proj-last-col {
+    margin-top: 16px;
+  }
+}
+
+.project-btn:hover {
+  background-color: transparent;
+  color: #212529;
+}
+
+.project-btn:focus {
+  outline: none;
+  background-color: #141619;
+  color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=Projects.css.map */
