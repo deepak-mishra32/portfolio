@@ -3,6 +3,8 @@
   color: #14ffec;
   -webkit-filter: drop-shadow(2px 2px 5px #0d7377);
           filter: drop-shadow(2px 2px 5px #0d7377);
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 
 .skill-icon {

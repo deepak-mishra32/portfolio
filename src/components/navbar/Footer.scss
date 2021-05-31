@@ -1,0 +1,28 @@
+.footer-text-desktop {
+  color: #212121;
+  font-size: 18px;
+  text-shadow: 2px 2px 3px white;
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
+.footer-text-mobile {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px black;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+  @media (min-width: 900px) {
+    display: none;
+  }
+}
+.footer-div {
+  height: 10vh;
+  background-color: #0d7377;
+  @media (min-width: 1000px) {
+    background-color: whitesmoke;
+    margin-left: 120px;
+    padding-top: 14px;
+    padding-left: 120px;
+  }
+}

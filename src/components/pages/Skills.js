@@ -20,7 +20,7 @@ function Skills() {
           <ProgressBar
             variant="dark"
             animated
-            now={80}
+            now={20}
             label="8/10"
             className="progress-bar"
           />
@@ -36,7 +36,7 @@ function Skills() {
           <ProgressBar
             variant="dark"
             animated
-            now={70}
+            now={30}
             label="7/10"
             className="progress-bar"
           />
@@ -52,7 +52,7 @@ function Skills() {
           <ProgressBar
             variant="dark"
             animated
-            now={70}
+            now={30}
             label="7/10"
             className="progress-bar"
           />
@@ -68,7 +68,7 @@ function Skills() {
           <ProgressBar
             variant="dark"
             animated
-            now={90}
+            now={10}
             label="9/10"
             className="progress-bar"
           />
@@ -84,7 +84,7 @@ function Skills() {
           <ProgressBar
             variant="dark"
             animated
-            now={80}
+            now={20}
             label="8/10"
             className="progress-bar"
           />
@@ -100,7 +100,7 @@ function Skills() {
           <ProgressBar
             variant="dark"
             animated
-            now={80}
+            now={20}
             label="8/10"
             className="progress-bar"
           />
@@ -116,7 +116,7 @@ function Skills() {
           <ProgressBar
             variant="dark"
             animated
-            now={70}
+            now={30}
             label="7/10"
             className="progress-bar"
           />
@@ -132,7 +132,7 @@ function Skills() {
           <ProgressBar
             variant="dark"
             animated
-            now={80}
+            now={20}
             label="8/10"
             className="progress-bar"
           />
@@ -146,7 +146,7 @@ function Skills() {
           <ProgressBar
             variant="dark"
             animated
-            now={70}
+            now={30}
             label="7/10"
             className="progress-bar"
           />

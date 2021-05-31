@@ -9,6 +9,7 @@ import Skills from "./components/pages/Skills";
 import Projects from "./components/pages/Projects";
 import WorkExp from "./components/pages/WorkExp";
 import FixedMenu from "./components/FixedMenu";
+import Footer from "./components/navbar/Footer";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }
