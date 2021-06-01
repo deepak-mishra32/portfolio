@@ -1,7 +1,7 @@
 .footer-text-desktop {
-  color: #212121;
+  color: #14ffec;
   font-size: 18px;
-  text-shadow: 2px 2px 3px white;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
   @media (max-width: 900px) {
     display: none;
   }
@@ -20,8 +20,9 @@
   height: 10vh;
   background-color: #0d7377;
   @media (min-width: 1000px) {
-    background-color: whitesmoke;
+    background-color: #212121;
     margin-left: 120px;
+    height: 15vh;
     padding-top: 14px;
     padding-left: 120px;
   }

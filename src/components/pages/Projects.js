@@ -5,7 +5,6 @@ import AbhinavCreations from "../images/Projects/AbhinavCreations.png";
 import DigitalUplifts from "../images/Projects/DigitalUplifts.png";
 import FourConnect from "../images/Projects/FourConnect.png";
 import { Button } from "react-bootstrap";
-import WorkExp from "./WorkExp";
 
 function Projects() {
   return (
@@ -98,7 +97,6 @@ function Projects() {
           </Alert>
         </Col>
       </Row>
-      <WorkExp />
     </Container>
   );
 }

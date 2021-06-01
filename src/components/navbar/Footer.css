@@ -1,7 +1,7 @@
 .footer-text-desktop {
-  color: #212121;
+  color: #14ffec;
   font-size: 18px;
-  text-shadow: 2px 2px 3px white;
+  text-shadow: 2px 2px 3px black;
 }
 
 @media (max-width: 900px) {
@@ -31,8 +31,9 @@
 
 @media (min-width: 1000px) {
   .footer-div {
-    background-color: whitesmoke;
+    background-color: #212121;
     margin-left: 120px;
+    height: 15vh;
     padding-top: 14px;
     padding-left: 120px;
   }

@@ -41,7 +41,7 @@ function App() {
             <div id="workexp" className="home-height">
               <WorkExp />
             </div>
-            <div id="contact" className="home-height">
+            <div id="contact">
               <Contact />
             </div>
           </Col>

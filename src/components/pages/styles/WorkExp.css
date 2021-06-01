@@ -1,1 +1,49 @@
-/* No CSS *//*# sourceMappingURL=WorkExp.css.map */
+p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.div-round {
+  background-color: #0d7377;
+  border-radius: 50%;
+  height: 10vh;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 0px 2px 5px #000000;
+  -webkit-filter: drop-shadow(5px 2px 5px #000000);
+          filter: drop-shadow(5px 2px 5px #000000);
+}
+
+.duration {
+  text-align: center;
+}
+
+.job-des {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 16px;
+}
+
+.exp-desktop {
+  background-image: url("../../images/Line.png");
+  background-repeat: no-repeat;
+  background-position-x: 21.5%;
+}
+
+@media (max-width: 900px) {
+  .exp-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .exp-mobile {
+    display: none;
+  }
+}
+
+.vl {
+  border: 2px solid white;
+  height: 500px;
+}
+/*# sourceMappingURL=WorkExp.css.map */
