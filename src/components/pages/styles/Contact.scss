@@ -7,3 +7,30 @@
   text-align: center;
   //   margin: 10px;
 }
+.socialIcons {
+  font-size: 56px;
+  padding: 8px;
+  &:hover {
+    transform: scale(1.2);
+    margin-top: -10px;
+    transition-duration: 0.2s;
+  }
+  @media (max-width: 900px) {
+    font-size: 36px;
+    padding: 4px;
+    &:hover {
+      color: white;
+    }
+  }
+}
+.desktop-contact {
+  padding-top: 40px;
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
+.mobile-contact {
+  @media (min-width: 1000px) {
+    display: none;
+  }
+}

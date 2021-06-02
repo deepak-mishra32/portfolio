@@ -1,0 +1,63 @@
+.form-btn {
+  -webkit-box-shadow: 0px 0px 8px #000000;
+          box-shadow: 0px 0px 8px #000000;
+  background-color: #0d7377;
+  border: none;
+}
+
+.form-btn:hover {
+  background-color: #212121;
+  -webkit-box-shadow: 0px 0px 16px #0d7377;
+          box-shadow: 0px 0px 16px #0d7377;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  color: #14ffec;
+  -webkit-transition-duration: 0.5;
+          transition-duration: 0.5;
+}
+
+@media (max-width: 900px) {
+  .form-btn:hover {
+    -webkit-box-shadow: 0px 0px 8px #000000;
+            box-shadow: 0px 0px 8px #000000;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    box-shadow: 0px 0px 8px #000000;
+  }
+}
+
+.form-btn:active {
+  -webkit-box-shadow: 0px 0px 8px #000000;
+          box-shadow: 0px 0px 8px #000000;
+  background-color: #0d7377;
+  border: none;
+}
+
+.input {
+  border-color: 1px solid #0d7377;
+  color: #14ffec;
+  background-color: #212121;
+  -webkit-box-shadow: 0px 0px 12px #000000;
+          box-shadow: 0px 0px 12px #000000;
+}
+
+.input:focus {
+  border-color: 1px solid #0d7377;
+  background-color: #1616167e;
+  color: whitesmoke;
+  outline: none;
+  -webkit-box-shadow: 0px 0px 8px #0d7377;
+          box-shadow: 0px 0px 8px #0d7377;
+}
+
+.email-text {
+  font-size: 12px;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .email-text {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=Form.css.map */

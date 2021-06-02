@@ -75,6 +75,7 @@ function FixedMenu() {
             <SocialIcon
               url="https://www.facebook.com/deepm3323/"
               target="_blank"
+              rel="noopener noreferrer"
               style={socialIcon}
               bgColor="blue"
               fgColor="white"
@@ -84,6 +85,7 @@ function FixedMenu() {
             <SocialIcon
               url="https://www.instagram.com/deepakkk_mishra/"
               target="_blank"
+              rel="noopener noreferrer"
               style={socialIcon}
               fgColor="white"
             />
@@ -92,6 +94,7 @@ function FixedMenu() {
             <SocialIcon
               url="https://github.com/deep332"
               target="_blank"
+              rel="noopener noreferrer"
               style={socialIcon}
               fgColor="white"
             />
@@ -100,6 +103,7 @@ function FixedMenu() {
             <SocialIcon
               url="https://www.linkedin.com/in/deepak-mishra-8b2b921b3/"
               target="_blank"
+              rel="noopener noreferrer"
               style={socialIcon}
               bgColor="blue"
               fgColor="white"

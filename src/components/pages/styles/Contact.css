@@ -6,4 +6,43 @@
   font-size: 24px;
   text-align: center;
 }
+
+.socialIcons {
+  font-size: 56px;
+  padding: 8px;
+}
+
+.socialIcons:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin-top: -10px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+@media (max-width: 900px) {
+  .socialIcons {
+    font-size: 36px;
+    padding: 4px;
+  }
+  .socialIcons:hover {
+    color: white;
+  }
+}
+
+.desktop-contact {
+  padding-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .desktop-contact {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .mobile-contact {
+    display: none;
+  }
+}
 /*# sourceMappingURL=Contact.css.map */

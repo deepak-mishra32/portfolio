@@ -51,12 +51,12 @@ function Navigation() {
             </Navbar.Text>
             <Navbar.Text>
               <a href="/#projects" className="link">
-                <FaLaptopCode style={{ marginTop: "-4px" }} /> ProjectsProjects
+                <FaLaptopCode style={{ marginTop: "-4px" }} /> Projects
               </a>
             </Navbar.Text>
             <Navbar.Text>
-              <a href="/#achievements" className="link">
-                <GiAchievement style={{ marginTop: "-4px" }} /> Acheivements
+              <a href="/#workexp" className="link">
+                <GiAchievement style={{ marginTop: "-4px" }} /> experience
               </a>
             </Navbar.Text>
             <Navbar.Text>

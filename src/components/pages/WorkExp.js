@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function WorkExp() {
   return (
-    <Container className="mt-3">
+    <Container className="mt-3 mb-3">
       <h4>Worked As</h4>
       <div className="exp-mobile">
         <Row className="mt-4">
@@ -19,7 +19,7 @@ function WorkExp() {
         <hr />
         <Row>
           <Col sm={3} md={3} lg={3}>
-            Feb-2021 to Apr-2021
+            Feb-2021 to May-2021
           </Col>
           <Col sm={3} md={9} lg={9}>
             {" "}
@@ -36,6 +36,7 @@ function WorkExp() {
             Freelance Web developer
           </Col>
         </Row>
+        <hr />
       </div>
       <div className="exp-desktop">
         <Row className="p-4">
@@ -57,7 +58,7 @@ function WorkExp() {
         <Row className="p-4">
           <Col sm={2} md={2} lg={2}>
             <h6 className="duration">
-              Feb-2021 to <br /> Apr-2021{" "}
+              Feb-2021 to <br /> May-2021{" "}
             </h6>
             <p>(2 Months)</p>
           </Col>
