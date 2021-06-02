@@ -9,6 +9,7 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.0.1",
     "emailjs-com": "^2.6.4",
+    "netlify-cli": "^3.33.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
     "react-bootstrap-floating-label": "^1.5.0",
@@ -23,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "netlify": "netlify"
   },
   "eslintConfig": {
     "extends": [
