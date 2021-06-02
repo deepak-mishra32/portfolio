@@ -2,7 +2,7 @@ import "./styles/Home.css";
 import React from "react";
 import { Alert, Col, Container, Row } from "react-bootstrap";
 import Deepak from "../images/Deepak.png";
-import homeBg2 from "../images/bg2.png";
+import homeBg2 from "../images/homeBg2.png";
 function Home() {
   return (
     <Container className="mb-6">
@@ -25,10 +25,7 @@ function Home() {
           </Alert>
         </Col>
       </Row>
-      <Row>
-        <Col sm={0} md={2} lg={2} id="hide-col">
-          <img src={homeBg2} className="col1-img" alt="bg2" />
-        </Col>
+      <Row className="justify-content-center">
         <Col sm={12} md={8} lg={8}>
           <div className="img-div">
             <div className="inner-img-div">
@@ -42,9 +39,6 @@ function Home() {
               ></img>
             </div>
           </div>
-        </Col>
-        <Col sm={0} md={2} lg={2} id="hide-col">
-          <img src={homeBg2} className="col2-img" alt="bg2" />
         </Col>
       </Row>
       <br />

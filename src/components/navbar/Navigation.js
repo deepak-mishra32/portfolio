@@ -7,6 +7,7 @@ import { ImUserTie } from "react-icons/im";
 import { FaUserGraduate, FaLaptopCode } from "react-icons/fa";
 import { GiSkills, GiAchievement } from "react-icons/gi";
 import { MdContacts } from "react-icons/md";
+import navImg from "../images/Nav-Icon.png";
 
 function Navigation() {
   return (
@@ -23,7 +24,19 @@ function Navigation() {
     >
       <Container>
         <Link to="/" className="link">
-          <Navbar.Brand>Deepak Mishra</Navbar.Brand>
+          <Navbar.Brand>
+            <img
+              src={navImg}
+              alt="nav-logo"
+              fluid
+              style={{
+                height: "46px",
+                marginLeft: "-16px",
+                marginRight: "8px",
+              }}
+            />
+            Deepak Mishra
+          </Navbar.Brand>
         </Link>
         <Navbar.Toggle className="toggle" />
         <Navbar.Collapse className="justify-content-end">

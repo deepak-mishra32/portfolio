@@ -31,7 +31,7 @@ function FixedMenu() {
           className="img-fluid"
           id="imgStyle"
         />
-        {/* <Card.Title className="mt-2">Deepak Mishra</Card.Title> */}
+        <Card.Title>Deepak Mishra</Card.Title>
         {/* <Card.Subtitle>Web Developer</Card.Subtitle> */}
         <Card.Body>
           <ListGroup>

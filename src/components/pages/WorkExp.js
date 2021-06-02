@@ -52,7 +52,9 @@ function WorkExp() {
             </Row>
           </Col>
           <Col sm={10} md={8} lg={9}>
-            <h5 className="job-des">Intern Graphic Designer</h5>
+            <h5 className="job-des">
+              Intern Graphic Designer At dwisha nidhi limited
+            </h5>
           </Col>
         </Row>
         <Row className="p-4">
