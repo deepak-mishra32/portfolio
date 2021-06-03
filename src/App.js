@@ -32,11 +32,11 @@ function App() {
             <div id="qualification" className="home-height">
               <Qualification />
             </div>
-            <div id="skills" className="home-height">
-              <Skills />
-            </div>
             <div id="projects" className="home-height">
               <Projects />
+            </div>
+            <div id="skills" className="home-height">
+              <Skills />
             </div>
             <div id="workexp" className="home-height">
               <WorkExp />
