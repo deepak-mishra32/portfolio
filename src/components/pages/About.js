@@ -114,7 +114,7 @@ function About() {
               <h6 id="intrest-heading">Software Development</h6>
               <hr id="about-col" />
               <h6>
-                Still working on this, but i belive soon will be able to do so
+                Still working on this, but i believe soon will be able to do so
               </h6>
             </Row>
           </Col>

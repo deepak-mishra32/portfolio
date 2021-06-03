@@ -53,7 +53,7 @@ function Qualification() {
             <h6>
               Completed 12th in 2018 with a grade. <br />
               got to live college life met many people, most of them temporary
-              but learned a great many lessons
+              but learned many lessons
             </h6>
           </div>
         </Col>
