@@ -58,13 +58,13 @@ function Navigation() {
               </a>
             </Navbar.Text>
             <Navbar.Text>
-              <a href="/#skills" className="link">
-                <GiSkills style={{ marginTop: "-4px" }} /> Skills
+              <a href="/#projects" className="link">
+                <FaLaptopCode style={{ marginTop: "-4px" }} /> Projects
               </a>
             </Navbar.Text>
             <Navbar.Text>
-              <a href="/#projects" className="link">
-                <FaLaptopCode style={{ marginTop: "-4px" }} /> Projects
+              <a href="/#skills" className="link">
+                <GiSkills style={{ marginTop: "-4px" }} /> Skills
               </a>
             </Navbar.Text>
             <Navbar.Text>

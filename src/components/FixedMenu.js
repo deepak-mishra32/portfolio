@@ -48,11 +48,11 @@ function FixedMenu() {
             >
               <FaUserGraduate style={{ marginTop: "-4px" }} /> Quallification
             </ListGroup.Item>
-            <ListGroup.Item action href="/#skills" className="list-items">
-              <GiSkills style={{ marginTop: "-4px" }} /> Skills
-            </ListGroup.Item>
             <ListGroup.Item action href="/#projects" className="list-items">
               <FaLaptopCode style={{ marginTop: "-4px" }} /> Projects
+            </ListGroup.Item>
+            <ListGroup.Item action href="/#skills" className="list-items">
+              <GiSkills style={{ marginTop: "-4px" }} /> Skills
             </ListGroup.Item>
             <ListGroup.Item action href="/#workexp" className="list-items">
               <GiAchievement style={{ marginTop: "-4px" }} /> Experience
