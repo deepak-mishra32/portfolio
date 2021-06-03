@@ -28,8 +28,9 @@ function Qualification() {
               <h5>SSC</h5>
             </a>
             <h6>
-              Passed out 10th in 2016 with A grade. <br /> it was great! an
-              important but unknow journey was ahead of me stepping into college
+              Completed 10th in 2016 with A grade. <br /> it was great! an
+              important but unknown journey was ahead of me stepping into
+              college
             </h6>
           </div>
         </Col>
@@ -50,9 +51,9 @@ function Qualification() {
               <h5>HSC</h5>
             </a>
             <h6>
-              Passed out 12th in 2018 with a grade <br />
-              got to live college live met many people most of them temporary
-              learned a great many lessons
+              Completed 12th in 2018 with a grade. <br />
+              got to live college life met many people, most of them temporary
+              but learned a great many lessons
             </h6>
           </div>
         </Col>
@@ -74,8 +75,8 @@ function Qualification() {
             </a>
             <h6>
               Got my degree in 2021 with a grade. unfortunately we were in the
-              midst of a pandemic so didn't enjoyed my collge days to the
-              fullest <br />
+              midst of a pandemic so didn't enjoy my collge days to the fullest{" "}
+              <br />
             </h6>
           </div>
         </Col>

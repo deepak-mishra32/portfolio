@@ -29,7 +29,7 @@ function About() {
             style={{ textAlign: "center" }}
             className="quote"
           >
-            <h5>Somewhere Something Incredible Is Wating To Be Known</h5>
+            <h5>Somewhere Something Incredible Is Waiting To Be Known</h5>
             <hr />
             <h6>- Carl Sagan</h6>
           </Alert>
@@ -98,7 +98,7 @@ function About() {
             <Row>
               <h6 id="intrest-heading">Graphic Design</h6>
               <hr id="about-col" />
-              <h6>Designing logo, banner, brochuer and social media posts</h6>
+              <h6>Designing logo, banner, brochure and social media posts</h6>
             </Row>
           </Col>
           <Col sm={12} md={3} lg={3} className="p-4">
@@ -128,7 +128,7 @@ function About() {
               />
             </Row>
             <Row>
-              <h6 id="intrest-heading">Treking</h6>
+              <h6 id="intrest-heading">Trekking</h6>
               <hr id="about-col" />
               <h6>
                 to enjoy the greatness of mother nature, and my free therapy
