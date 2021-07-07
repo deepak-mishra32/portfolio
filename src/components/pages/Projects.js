@@ -86,7 +86,7 @@ function Projects() {
             </h5>
             <h6>Tech Stack: javascript,HTML,CSS</h6>
             <a
-              href="https://deep332.github.io/"
+              href="https://deepak-mishra32.github.io/deep332.github.io/"
               rel="noopener noreferrer"
               target="_blank"
             >
