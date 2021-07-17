@@ -10,6 +10,8 @@ import { MdContacts } from "react-icons/md";
 import navImg from "../images/Nav-Icon.png";
 
 function Navigation() {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <Navbar
       variant="dark"
@@ -38,42 +40,73 @@ function Navigation() {
             Deepak Mishra
           </Navbar.Brand>
         </Link>
-        <Navbar.Toggle className="toggle" />
+        <Navbar.Toggle
+          className="toggle"
+          onClick={() => setExpanded(expanded ? false : "expanded")}
+        />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <hr />
             <Navbar.Text>
-              <a href="/#home" className="link">
+              <a
+                href="/#home"
+                className="link"
+                onClick={() => setExpanded(expanded ? false : "expanded")}
+              >
                 <IoIosHome style={{ marginTop: "-4px" }} /> Home
               </a>
             </Navbar.Text>
             <Navbar.Text>
-              <a href="/#about" className="link">
+              <a
+                href="/#about"
+                className="link"
+                onClick={() => setExpanded(expanded ? false : "expanded")}
+              >
                 <ImUserTie style={{ marginTop: "-4px" }} /> About
               </a>
             </Navbar.Text>
             <Navbar.Text>
-              <a href="/#qualification" className="link">
+              <a
+                href="/#qualification"
+                className="link"
+                onClick={() => setExpanded(expanded ? false : "expanded")}
+              >
                 <FaUserGraduate style={{ marginTop: "-4px" }} /> Quallification
               </a>
             </Navbar.Text>
             <Navbar.Text>
-              <a href="/#projects" className="link">
+              <a
+                href="/#projects"
+                className="link"
+                onClick={() => setExpanded(expanded ? false : "expanded")}
+              >
                 <FaLaptopCode style={{ marginTop: "-4px" }} /> Projects
               </a>
             </Navbar.Text>
             <Navbar.Text>
-              <a href="/#skills" className="link">
+              <a
+                href="/#skills"
+                className="link"
+                onClick={() => setExpanded(expanded ? false : "expanded")}
+              >
                 <GiSkills style={{ marginTop: "-4px" }} /> Skills
               </a>
             </Navbar.Text>
             <Navbar.Text>
-              <a href="/#workexp" className="link">
+              <a
+                href="/#workexp"
+                className="link"
+                onClick={() => setExpanded(expanded ? false : "expanded")}
+              >
                 <GiAchievement style={{ marginTop: "-4px" }} /> experience
               </a>
             </Navbar.Text>
             <Navbar.Text>
-              <a href="/#contact" className="link">
+              <a
+                href="/#contact"
+                className="link"
+                onClick={() => setExpanded(expanded ? false : "expanded")}
+              >
                 <MdContacts style={{ marginTop: "-4px" }} /> Contact
               </a>
             </Navbar.Text>
