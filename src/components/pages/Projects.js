@@ -4,6 +4,7 @@ import { Alert, Col, Container, Row } from "react-bootstrap";
 import AbhinavCreations from "../images/Projects/AbhinavCreations.png";
 import DigitalUplifts from "../images/Projects/DigitalUplifts.png";
 import FourConnect from "../images/Projects/FourConnect.png";
+import Eustache from "../images/Projects/eustache-institute.png";
 import { Button } from "react-bootstrap";
 
 function Projects() {
@@ -14,20 +15,20 @@ function Projects() {
         <Col sm={12} md={4} lg={4}>
           <Alert variant="dark">
             <img
-              src={AbhinavCreations}
+              src={Eustache}
               alt="AbbhinavCreation-Img"
               className="img-fluid"
               id="Project-img"
             />
-            <h5>Abhinav Creations</h5>
+            <h5>Eustache Institute</h5>
             <hr />
             <h5>
-              A digital marketing agency <br /> Card-Brochure printing <br />{" "}
-              social media management{" "}
+              A Cosmetic Surgery Institute <br /> Online Consultancy <br />{" "}
+              Dr.Elena Eustache
             </h5>
-            <h6>Tech stack: CMS-Wordpress/SQL</h6>
+            <h6>Tech Stack- ReactJs, HTML, CSS(SCSS)</h6>
             <a
-              href="http://www.abhinavcreations.com/"
+              href="https://eustache-institute.netlify.com/"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -70,6 +71,35 @@ function Projects() {
             </a>
           </Alert>
         </Col>
+
+        <Col sm={12} md={4} lg={4}>
+          <Alert variant="dark">
+            <img
+              src={AbhinavCreations}
+              alt="AbbhinavCreation-Img"
+              className="img-fluid"
+              id="Project-img"
+            />
+            <h5>Abhinav Creations</h5>
+            <hr />
+            <h5>
+              A digital marketing agency <br /> Card-Brochure printing <br />{" "}
+              social media management{" "}
+            </h5>
+            <h6>Tech stack: CMS-Wordpress/SQL</h6>
+            <a
+              href="http://www.abhinavcreations.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button variant="dark" size="sm" className="project-btn">
+                View Project
+              </Button>
+            </a>
+          </Alert>
+        </Col>
+      </Row>
+      <Row>
         <Col sm={12} md={4} lg={4} className="Proj-last-col">
           <Alert variant="dark">
             <img

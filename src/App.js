@@ -32,7 +32,7 @@ function App() {
             <div id="qualification" className="home-height">
               <Qualification />
             </div>
-            <div id="projects" className="home-height">
+            <div id="projects">
               <Projects />
             </div>
             <div id="skills" className="home-height">

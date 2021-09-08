@@ -42,6 +42,23 @@ function WorkExp() {
         <Row className="p-4">
           <Col sm={2} md={2} lg={2}>
             <h6 className="duration">
+              Aus-2021 to <br /> Present
+            </h6>
+          </Col>
+          <Col sm={1} md={2} lg={1}>
+            <Row>
+              <div className="div-round">4</div>
+            </Row>
+          </Col>
+          <Col sm={10} md={8} lg={9}>
+            <h5 className="job-des">
+              Graduate Trainee at Tata Consultancy Services
+            </h5>
+          </Col>
+        </Row>
+        <Row className="p-4">
+          <Col sm={2} md={2} lg={2}>
+            <h6 className="duration">
               May-2021 to <br /> May-2021
             </h6>
             <p>(1 Months)</p>
