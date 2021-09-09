@@ -9,9 +9,10 @@ function WorkExp() {
       <div className="exp-mobile">
         <Row className="p-4">
           <Col sm={2} md={3} lg={3}>
-            Aug-2021 to <br /> Present
+            Aug-2021 to Present
           </Col>
           <Col sm={10} md={9} lg={9}>
+           {" "}
             Graduate Trainee at Tata Consultancy Services
           </Col>
         </Row>
