@@ -11,7 +11,7 @@ function WorkExp() {
           <Col sm={2} md={3} lg={3}>
             Aug-2021 to Present
           </Col>
-          <Col sm={10} md={9} lg={9}>
+          <Col sm={3} md={9} lg={9}>
            {" "}
             Graduate Trainee at Tata Consultancy Services
           </Col>
@@ -38,7 +38,7 @@ function WorkExp() {
         <hr />
         <Row>
           <Col sm={3} md={3} lg={3}>
-            Aug-2020 to jan-2020
+            Aug-2020 to jan-2021
           </Col>
           <Col sm={3} md={9} lg={9}>
             {" "}
