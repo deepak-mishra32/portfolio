@@ -7,15 +7,15 @@ function WorkExp() {
     <Container className="mt-3 mb-3">
       <h4>Worked As</h4>
       <div className="exp-mobile">
-        <Row className="p-4">
-          <Col sm={2} md={3} lg={3}>
+        <Row className="mt-4">
+          <Col sm={12} md={3} lg={3}>
             Aug-2021 to Present
           </Col>
-          <Col sm={3} md={9} lg={9}>
-           {" "}
+          <Col sm={12} md={9} lg={9}>
             Graduate Trainee at Tata Consultancy Services
           </Col>
         </Row>
+        <hr />
         <Row className="mt-4">
           <Col sm={3} md={3} lg={3}>
             may-2021 to may-2021

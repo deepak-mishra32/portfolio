@@ -5,6 +5,7 @@ import AbhinavCreations from "../images/Projects/AbhinavCreations.png";
 import DigitalUplifts from "../images/Projects/DigitalUplifts.png";
 import FourConnect from "../images/Projects/FourConnect.png";
 import Eustache from "../images/Projects/eustache-institute.png";
+import Fabulife from "../images/Projects/fabulifeLogo.webp";
 import { Button } from "react-bootstrap";
 
 function Projects() {
@@ -12,6 +13,39 @@ function Projects() {
     <Container>
       <h4 style={{ textAlign: "center" }}>Some of my work</h4>
       <Row className="mt-4">
+        <Col sm={12} md={4} lg={4}>
+          <Alert
+            variant="dark"
+            style={{
+              justifyContent: "center",
+              margin: "auto",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={Fabulife}
+              alt="FabuLife-Img"
+              className="img-fluid"
+              id="Project-img"
+              style={{ width: "250px", height: "150px" }}
+            />
+            <h5>FabuLife</h5>
+            <hr />
+            <h5>
+              Herbalife Associate And Weight Management Center In Vadodara
+            </h5>
+            <h6>Tech Stack- ReactJs, HTML, CSS(SCSS)</h6>
+            <a
+              href="https://www.fabulife.in/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button variant="dark" size="sm" className="project-btn">
+                View Project
+              </Button>
+            </a>
+          </Alert>
+        </Col>
         <Col sm={12} md={4} lg={4}>
           <Alert variant="dark">
             <img
@@ -29,39 +63,6 @@ function Projects() {
             <h6>Tech Stack- ReactJs, HTML, CSS(SCSS)</h6>
             <a
               href="https://eustache-institute.netlify.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <Button variant="dark" size="sm" className="project-btn">
-                View Project
-              </Button>
-            </a>
-          </Alert>
-        </Col>
-        <Col sm={12} md={4} lg={4}>
-          <Alert
-            variant="dark"
-            style={{
-              justifyContent: "center",
-              margin: "auto",
-              alignItems: "center",
-            }}
-          >
-            <img
-              src={DigitalUplifts}
-              alt="DigitalUplifts-Img"
-              className="img-fluid"
-              id="Project-img"
-            />
-            <h5>Digital Uplifts</h5>
-            <hr />
-            <h5>
-              A Digital Marketing Agency <br /> Social Media manager <br />{" "}
-              graphic desgining{" "}
-            </h5>
-            <h6>Tech stack: CMS-Wordpress/SQL</h6>
-            <a
-              href="https://digitaluplifts.com/"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -100,6 +101,39 @@ function Projects() {
         </Col>
       </Row>
       <Row>
+        <Col sm={12} md={4} lg={4}>
+          <Alert
+            variant="dark"
+            style={{
+              justifyContent: "center",
+              margin: "auto",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={DigitalUplifts}
+              alt="DigitalUplifts-Img"
+              className="img-fluid"
+              id="Project-img"
+            />
+            <h5>Digital Uplifts</h5>
+            <hr />
+            <h5>
+              A Digital Marketing Agency <br /> Social Media manager <br />{" "}
+              graphic desgining{" "}
+            </h5>
+            <h6>Tech stack: CMS-Wordpress/SQL</h6>
+            <a
+              href="https://digitaluplifts.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button variant="dark" size="sm" className="project-btn">
+                View Project
+              </Button>
+            </a>
+          </Alert>
+        </Col>
         <Col sm={12} md={4} lg={4}>
           <Alert variant="dark">
             <img
