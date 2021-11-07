@@ -39,7 +39,7 @@ function Projects() {
             </a>
           </Alert>
         </Col>
-        <Col sm={12} md={4} lg={4} className="project-btn">
+        <Col sm={12} md={4} lg={4}>
           <Alert
             variant="dark"
             style={{
@@ -72,7 +72,7 @@ function Projects() {
             </a>
           </Alert>
         </Col>
-        <Col sm={12} md={4} lg={4}>
+        <Col sm={12} md={4} lg={4} className="Proj-last-col">
           <Alert variant="dark">
             <img
               src={Eustache}
@@ -100,7 +100,7 @@ function Projects() {
         </Col>
       </Row>
       <Row>
-        <Col sm={12} md={4} lg={4} className="Proj-last-col">
+        <Col sm={12} md={4} lg={4}>
           <Alert variant="dark">
             <img
               src={AbhinavCreations}
