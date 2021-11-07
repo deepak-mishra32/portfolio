@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/Projects.css";
 import { Alert, Col, Container, Row } from "react-bootstrap";
 import AbhinavCreations from "../images/Projects/AbhinavCreations.png";
+import stoxforwealth from "../images/Projects/stoxforwealth.png";
 import DigitalUplifts from "../images/Projects/DigitalUplifts.png";
 import FourConnect from "../images/Projects/FourConnect.png";
 import Eustache from "../images/Projects/eustache-institute.png";
@@ -13,7 +14,32 @@ function Projects() {
     <Container>
       <h4 style={{ textAlign: "center" }}>Some of my work</h4>
       <Row className="mt-4">
-        <Col sm={12} md={4} lg={4}>
+        <Col sm={12} md={4} lg={4} className="Proj-last-col">
+          <Alert variant="dark">
+            <img
+              src={stoxforwealth}
+              alt="StoxforWealth-Img"
+              className="img-fluid"
+              id="Project-img"
+            />
+            <h5>Stox For Wealth</h5>
+            <hr />
+            <h5>
+              Stock Market Advisory <br /> Trading Advice <br /> customer growth
+            </h5>
+            <h6>Tech stack: CMS-Wordpress/SQL</h6>
+            <a
+              href="http://www.stoxforwealth.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button variant="dark" size="sm" className="project-btn">
+                View Project
+              </Button>
+            </a>
+          </Alert>
+        </Col>
+        <Col sm={12} md={4} lg={4} className="project-btn">
           <Alert
             variant="dark"
             style={{
@@ -50,7 +76,7 @@ function Projects() {
           <Alert variant="dark">
             <img
               src={Eustache}
-              alt="AbbhinavCreation-Img"
+              alt="Eustache-Img"
               className="img-fluid"
               id="Project-img"
             />
@@ -72,7 +98,8 @@ function Projects() {
             </a>
           </Alert>
         </Col>
-
+      </Row>
+      <Row>
         <Col sm={12} md={4} lg={4} className="Proj-last-col">
           <Alert variant="dark">
             <img
@@ -99,8 +126,6 @@ function Projects() {
             </a>
           </Alert>
         </Col>
-      </Row>
-      <Row>
         <Col sm={12} md={4} lg={4}>
           <Alert
             variant="dark"
@@ -134,7 +159,7 @@ function Projects() {
             </a>
           </Alert>
         </Col>
-        <Col sm={12} md={4} lg={4}>
+        <Col sm={12} md={4} lg={4} className="Proj-last-col">
           <Alert variant="dark">
             <img
               src={FourConnect}
