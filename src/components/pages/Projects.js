@@ -7,6 +7,7 @@ import DigitalUplifts from "../images/Projects/DigitalUplifts.png";
 import FourConnect from "../images/Projects/FourConnect.png";
 import Eustache from "../images/Projects/eustache-institute.png";
 import Fabulife from "../images/Projects/fabulifeLogo.webp";
+import RegalMerchant from "../images/Projects/regalMerchant.png";
 import { Button } from "react-bootstrap";
 
 function Projects() {
@@ -101,32 +102,6 @@ function Projects() {
       </Row>
       <Row>
         <Col sm={12} md={4} lg={4}>
-          <Alert variant="dark">
-            <img
-              src={AbhinavCreations}
-              alt="AbbhinavCreation-Img"
-              className="img-fluid"
-              id="Project-img"
-            />
-            <h5>Abhinav Creations</h5>
-            <hr />
-            <h5>
-              A digital marketing agency <br /> Card-Brochure printing <br />{" "}
-              social media management{" "}
-            </h5>
-            <h6>Tech stack: CMS-Wordpress/SQL</h6>
-            <a
-              href="http://www.abhinavcreations.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <Button variant="dark" size="sm" className="project-btn">
-                View Project
-              </Button>
-            </a>
-          </Alert>
-        </Col>
-        <Col sm={12} md={4} lg={4}>
           <Alert
             variant="dark"
             style={{
@@ -176,6 +151,60 @@ function Projects() {
             <h6>Tech Stack: javascript,HTML,CSS</h6>
             <a
               href="https://deepak-mishra32.github.io/deep332.github.io/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button variant="dark" size="sm" className="project-btn">
+                View Project
+              </Button>
+            </a>
+          </Alert>
+        </Col>
+        <Col sm={12} md={4} lg={4}>
+          <Alert variant="dark">
+            <img
+              src={RegalMerchant}
+              alt="RegalMerchant-Img"
+              className="img-fluid"
+              id="Project-img"
+            />
+            <h5>Regal Merchant</h5>
+            <hr />
+            <h5>
+              Real Estate Agency
+              <br /> Buy Sell Rent <br /> Financial Advice{" "}
+            </h5>
+            <h6>Tech stack: CMS-Wordpress/SQL</h6>
+            <a
+              href="http://www.regalmerchant.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button variant="dark" size="sm" className="project-btn">
+                View Project
+              </Button>
+            </a>
+          </Alert>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={12} md={4} lg={4}>
+          <Alert variant="dark">
+            <img
+              src={AbhinavCreations}
+              alt="AbbhinavCreation-Img"
+              className="img-fluid"
+              id="Project-img"
+            />
+            <h5>Abhinav Creations</h5>
+            <hr />
+            <h5>
+              A digital marketing agency <br /> Card-Brochure printing <br />{" "}
+              social media management{" "}
+            </h5>
+            <h6>Tech stack: CMS-Wordpress/SQL</h6>
+            <a
+              href="http://www.abhinavcreations.com/"
               rel="noopener noreferrer"
               target="_blank"
             >
