@@ -60,7 +60,7 @@ function About() {
             >
               American Astronomer
             </a>{" "}
-            is by which I live my life, always read to explore, learn and
+            is by which I live my life, always ready to explore, learn and
             discover new things and that is the reason i got into programming
             and started building websites, later which was just a curosity
             turned into a hobby. so, here i am today.
