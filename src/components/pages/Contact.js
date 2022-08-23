@@ -100,7 +100,7 @@ function Contact() {
             <AiFillFacebook className="socialIcons" />
           </a>
           <a
-            href="https://github.com/deep332"
+            href="https://github.com/deepak-mishra32/"
             target="_blank"
             rel="noopener noreferrer"
           >
