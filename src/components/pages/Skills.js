@@ -42,6 +42,20 @@ function Skills() {
           <ProgressBar
             variant="dark"
             animated
+            now={20}
+            label="8/10"
+            className="progress-bar"
+          />
+        </Col>
+      </Row>
+      <Row className="mt-3">
+        <Col sm={12} md={2} lg={2}>
+          <h5>Spring  Boot</h5>
+        </Col>
+        <Col sm={12} md={10} lg={10}>
+          <ProgressBar
+            variant="dark"
+            animated
             now={30}
             label="7/10"
             className="progress-bar"
