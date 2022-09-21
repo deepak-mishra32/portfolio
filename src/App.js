@@ -35,7 +35,7 @@ function App() {
             <div id="projects">
               <Projects />
             </div>
-            <div id="skills" className="home-height">
+            <div id="skills" className="mt-5 home-height">
               <Skills />
             </div>
             <div id="workexp" className="home-height">

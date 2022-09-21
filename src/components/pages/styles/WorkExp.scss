@@ -4,19 +4,23 @@ p {
 }
 .div-round {
   background-color: #0d7377;
-  border-radius: 50%;
-  height: 10vh;
+  border-radius: 5px;
+  height: 6vh;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 8px;
   text-shadow: 0px 2px 5px #000000;
   filter: drop-shadow(5px 2px 5px #000000);
 }
+.newPostionDuration {
+  font-size: 12px;
+}
+
 .duration {
   text-align: center;
 }
 .job-des {
   text-align: left;
-  padding-top: 20px;
+  padding-top: 14px;
   padding-left: 16px;
 }
 .exp-desktop {
@@ -27,6 +31,7 @@ p {
     display: none;
   }
 }
+
 .exp-mobile {
   @media (min-width: 900px) {
     display: none;

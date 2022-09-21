@@ -5,14 +5,40 @@ import { Container, Row, Col } from "react-bootstrap";
 function WorkExp() {
   return (
     <Container className="mt-3 mb-3">
-      <h4>Worked As</h4>
+      <h4>Work Experience</h4>
       <div className="exp-mobile">
         <Row className="mt-4">
           <Col sm={12} md={3} lg={3}>
             Aug-2021 to Present
           </Col>
           <Col sm={12} md={9} lg={9}>
-            Graduate Trainee at Tata Consultancy Services
+            Tata Consultancy Services
+            <ul>
+              <li>
+                <Row>
+                  <Col sm={10} md={8} lg={9}>
+                    <h6 className="job-des">
+                      Programmer{" "}
+                      <span className="newPostionDuration">
+                        (Aug-22 to Present)
+                      </span>
+                    </h6>
+                  </Col>
+                </Row>
+              </li>
+              <li>
+                <Row>
+                  <Col sm={10} md={8} lg={9}>
+                    <h6 className="job-des">
+                      Graduate Trainee{" "}
+                      <span className="newPostionDuration">
+                        (Aug-21 to Aug-22)
+                      </span>
+                    </h6>
+                  </Col>
+                </Row>
+              </li>
+            </ul>
           </Col>
         </Row>
         <hr />
@@ -53,6 +79,7 @@ function WorkExp() {
             <h6 className="duration">
               Aug-2021 to <br /> Present
             </h6>
+            <p>(1 Year 1 Month)</p>
           </Col>
           <Col sm={1} md={2} lg={1}>
             <Row>
@@ -60,9 +87,25 @@ function WorkExp() {
             </Row>
           </Col>
           <Col sm={10} md={8} lg={9}>
-            <h5 className="job-des">
-              Graduate Trainee at Tata Consultancy Services
-            </h5>
+            <h5 className="job-des">Tata Consultacy Services</h5>
+            <ul>
+              <li>
+                <Row>
+                  <Col sm={10} md={8} lg={9}>
+                    <h6 className="job-des">Programmer (Aug-22 to Present)</h6>
+                  </Col>
+                </Row>
+              </li>
+              <li>
+                <Row>
+                  <Col sm={10} md={8} lg={9}>
+                    <h6 className="job-des">
+                      Graduate Trainee (Aug-21 to Aug-22)
+                    </h6>
+                  </Col>
+                </Row>
+              </li>
+            </ul>
           </Col>
         </Row>
         <Row className="p-4">
@@ -70,7 +113,7 @@ function WorkExp() {
             <h6 className="duration">
               May-2021 to <br /> May-2021
             </h6>
-            <p>(1 Months)</p>
+            <p>(1 Month)</p>
           </Col>
           <Col sm={1} md={2} lg={1}>
             <Row>
@@ -79,7 +122,7 @@ function WorkExp() {
           </Col>
           <Col sm={10} md={8} lg={9}>
             <h5 className="job-des">
-              Intern Graphic Designer At dwisha nidhi limited
+              Intern Graphic Designer At Dwisha nidhi limited
             </h5>
           </Col>
         </Row>

@@ -8,6 +8,7 @@ import FourConnect from "../images/Projects/FourConnect.png";
 import Eustache from "../images/Projects/eustache-institute.png";
 import Fabulife from "../images/Projects/fabulifeLogo.webp";
 import RegalMerchant from "../images/Projects/regalMerchant.png";
+import PerfectStockSolution from "../images/Projects/PerfectStockSolution.png";
 import { Button } from "react-bootstrap";
 
 function Projects() {
@@ -111,20 +112,19 @@ function Projects() {
             }}
           >
             <img
-              src={DigitalUplifts}
-              alt="DigitalUplifts-Img"
+              src={PerfectStockSolution}
+              alt="perffectStockSolution-Img"
               className="img-fluid"
               id="Project-img"
             />
-            <h5>Digital Uplifts</h5>
+            <h5>Perfect Stock Soltuion</h5>
             <hr />
             <h5>
-              A Digital Marketing Agency <br /> Social Media manager <br />{" "}
-              graphic desgining{" "}
+              Providing Stock Solution to Users <br /> Maximizing their Profits
             </h5>
             <h6>Tech stack: CMS-Wordpress/SQL</h6>
             <a
-              href="https://digitaluplifts.com/"
+              href="https://perfectstocksolution.com/"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -189,6 +189,39 @@ function Projects() {
       </Row>
       <Row>
         <Col sm={12} md={4} lg={4}>
+          <Alert
+            variant="dark"
+            style={{
+              justifyContent: "center",
+              margin: "auto",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={DigitalUplifts}
+              alt="DigitalUplifts-Img"
+              className="img-fluid"
+              id="Project-img"
+            />
+            <h5>Digital Uplifts</h5>
+            <hr />
+            <h5>
+              A Digital Marketing Agency <br /> Social Media manager <br />{" "}
+              graphic desgining{" "}
+            </h5>
+            <h6>Tech stack: CMS-Wordpress/SQL</h6>
+            <a
+              href="https://digitaluplifts.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button variant="dark" size="sm" className="project-btn">
+                View Project
+              </Button>
+            </a>
+          </Alert>
+        </Col>
+        <Col sm={12} md={4} lg={4}>
           <Alert variant="dark">
             <img
               src={AbhinavCreations}
@@ -215,6 +248,7 @@ function Projects() {
           </Alert>
         </Col>
       </Row>
+      <hr />
     </Container>
   );
 }
