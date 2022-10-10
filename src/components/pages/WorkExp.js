@@ -79,7 +79,6 @@ function WorkExp() {
             <h6 className="duration">
               Aug-2021 to <br /> Present
             </h6>
-            <p>(1 Year 1 Month)</p>
           </Col>
           <Col sm={1} md={2} lg={1}>
             <Row>
